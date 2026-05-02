@@ -1,0 +1,157 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: #00439c;
+    height: 75px;
+    max-width: 100%;
+    list-style: none;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 40px;
+}
+
+li{
+    color: white;
+    list-style: none;
+    margin: auto;
+}
+
+.panel{
+    max-width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.more{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    width: 30%;
+    padding: 10px;
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 170px;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.other{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin: auto;
+}
+
+.mini{
+    height: 120px;
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.logo{
+    margin: 5px;
+    height: 45px;
+    width: 45px;
+    margin-top: 15px;
+}
+
+li:hover{
+    cursor: pointer;
+}
+
+.login{
+    margin-left: 800px;
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    box-shadow: none;
+    border: none;
+    font-family: Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: #2169c7;
+    color: white;
+}
+
+.info{
+    border-radius: 30px;
+    background-color: white;
+    color: #00439c;
+    width: 220px;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-weight: bold;
+    border: none;
+}
+
+.login:hover{
+    cursor: pointer;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+h1{
+    color: white;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    font-size: 80px;
+    letter-spacing: 5px;
+}
+
+h2{
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+h3{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 2px;
+    font-size: 35px;
+}
+
+h4{
+    color: white;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 25px;
+    letter-spacing: 5px;
+}
+
+p{
+    color: rgb(238, 238, 238);
+    margin-top: 20px;
+    margin-bottom: 2px;
+    letter-spacing: 0.5px;
+    line-height: 40px;
+    font-size: 17.5px;
+    font-weight: 50;
+}
+
+.info:hover{
+    cursor: pointer;
+}
